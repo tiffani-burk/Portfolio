@@ -1,0 +1,341 @@
+
+/* test to see if your CSS file is properly linked */
+/* remove when you see the background has turned green */
+
+/* body {
+  background-color: green;
+} */
+
+
+.content-wrapper {display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  height: 100vh;
+}
+
+/*Project Cards*/
+.card-one,
+.card-two,
+.card-three {width: 275px; 
+  height: 460px; 
+  border: 2px solid rgb(153, 150, 150); 
+  padding: 8px;
+  margin: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  background-color: #e6ebe0;
+
+}
+
+/*Footer*/
+footer {background-color: #252524;  
+  color: #ffffff;
+  height: 1rem; 
+  padding: 3rem;
+text-align: justify;
+display: flex;flex-direction: row; justify-content: space-between ;}
+.footer-icons {margin: 8px;}
+
+
+
+  .left-container,
+  .right-container
+  {padding: 1rem;}
+
+  #slide-right {display: flex; flex-direction: column; align-items: center; margin: 3rem;}
+
+  #overview-container {display: flex; flex-direction: column; align-content: center;}
+
+  h1 {display: flex; 
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    padding-top: 2rem;
+  }
+
+
+  h3 {display: flex; justify-content: center;
+    font-family: 'Roboto', sans-serif;}
+
+  h5 {font-style: italic; font-family: 'Roboto', sans-serif;}
+
+  p {font-family: 'Roboto', sans-serif;}
+
+  button {background-color: #ed6a5a;}
+
+  #me {border-radius: 50%;}
+
+/*Home Page*/
+  #home-section {padding-left: 1rem; 
+    padding-right: 1rem;
+    justify-content: center;
+  background-color: #9bc1bc;
+  height: 88vh;
+}
+/*Project Page*/
+  #project-section {background-color: #5d576b; display: flex; flex-direction: column;}
+
+
+/*Nav*/
+  #nav {background-color: #e6ebe0
+    ;}
+  .nav-item {color: #ed6a5a; 
+  }
+  #nav li:hover {background-color: whitesmoke;}
+
+
+
+    /*animation on my name*/
+    .name
+    {animation: 5s slide-left;
+      margin-left: 1rem;
+      width: 100%;}
+  
+      @keyframes slide-left {
+        from {
+          margin-left: -100%;
+          width: 100%; 
+        }
+      
+        to {
+         margin-left: 1rem;
+          width: 100%;
+        }
+      }
+
+      /*Content wrapper on Projects */
+      .content-wrapper-one {display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+        padding: 2rem;
+       border: 2px solid lightslategray;
+       background-color: #e6ebe0;
+
+        /*all 3 project cards*/
+     .content-wrapper-one {box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color: #e6ebe0; margin-bottom: 2rem; padding-bottom: 2rem;
+    display: flex; align-items: center;}
+  }
+
+  /*text on card 1 & 3*/
+    .card-one-right
+     {display: flex; 
+      flex-direction: column; 
+      text-align: center; border: 2px solid lightslategray; height: 400px;
+      margin-left: 1rem; padding-top: 3rem; 
+      padding-left: 4rem; 
+      padding-right: 2rem;}
+
+
+    
+
+      /* card 2 text*/
+     .card-one-new {display: flex; 
+      flex-direction: column; 
+      text-align: center; 
+      border: 2px solid lightslategray; 
+      margin-right: 1rem; 
+  padding: 4rem;
+  height: 400px;;
+    
+      
+    }
+
+    /*Social Icons*/
+.icons {display: flex; flex-direction: row; justify-content: center;}
+.social-icon {padding: 1rem;}
+#social-p {display: flex; justify-content: center;}
+.getting-social {padding-top: 2rem; color: #e6ebe0;}
+
+
+   
+
+     
+/* About Page*/
+
+#about-me {padding-left: 4rem; padding-right: 4rem; height: 65vh; text-align: justify;}
+#free-time {padding-left: 4rem; padding-right: 4rem; height: 50vh; text-align: justify; background-color: #9bc1bc;
+
+}
+
+.about-body {background-color: #9bc1bc;}
+
+#visual {margin: -8px;}
+
+
+
+
+.left-container-about, 
+.right-container-about {display: flex; flex-direction: column; padding: 1rem;} 
+
+/*View Projects Button*/
+.p-button {
+  box-shadow: rgba(80, 62, 62, 0.24) 0px 3px 8px;
+  margin: 1rem;
+}
+
+/**/
+.UI {background-color: #e6ebe0;
+width: 600px; height: 400px;
+margin:2rem;
+margin-right: 1rem;
+padding:1rem;
+display: flex;flex-direction: column;
+align-items: center;
+}
+
+/**/
+.UI-2 {background-color: #e6ebe0;
+  width: 600px; height: 400px;
+  margin:2rem;
+  padding: 1rem;
+display: flex;flex-direction: column;
+align-items: center;
+}
+
+#section {display: flex; flex-direction: row; justify-content: center; align-items: center;   
+}
+
+.design-gif {
+  width: 300px; margin: -2rem;
+}
+
+/*Let's Get Social gif*/
+.mail-gif {width: 350px; 
+}
+
+/********** Rhino Splits Screen *************/
+
+/*Prob Statement Container*/
+#problem {background-color: #e6ebe0; margin: 2rem;
+  padding: 1rem;
+
+}
+
+/*Overview Container*/
+.overview {height: 90vh;
+
+}
+
+/*Role Container*/
+#role {margin: 2rem; height: 400px;}
+
+
+  /*Research Container on Rhino Splits*/
+  #research-div {
+    display: flex; flex-direction: row;
+  }
+  #research-left,
+  #research-right
+  {
+margin: 2rem;
+  }
+
+/*Persona Photo*/
+#persona {display: flex; justify-content: center;}
+
+/*Journey Map*/
+#journey-map {display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 2rem; }
+
+/*Client Goals Container*/
+#goals {margin: 2rem;}
+
+/*Site Map*/
+#site-map {margin: 2rem; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+/*Wireframe Photo*/
+#wireframe { 
+  display: flex; justify-content: center;}
+
+/*Sketch Photo*/
+#sketch {display: flex; flex-direction: row; margin: 2rem; justify-content: space-around;}
+
+/*Interview Container*/
+.interview {margin: 2rem; padding: 1rem}
+ 
+/*Mockups and High Fi Container*/
+#mockups { 
+  display: flex; flex-direction: row; justify-content: space-around; }
+
+  
+/*Next Project Container*/
+  #next-project1 {width: 700px; height: 400px; background-color: #e6ebe0;
+    display: flex; flex-direction: row; align-items: center; box-shadow: rgba(80, 62, 62, 0.24) 0px 3px 8px;
+     margin: 2rem;
+  }
+
+  .left-next {margin: 1rem;}
+  
+ 
+/***********************************/
+
+  /*What I Do Containers*/
+  #specialty {height: 300px;
+  }
+
+  #what-i-do h2, h5 {color: #e6ebe0; display: flex; justify-content: center;}
+  .what-i-do-image {display: flex; flex-direction: row; justify-content: space-around; align-items: center;
+
+  }
+
+  .font-class {font-style: normal; font: bold;}
+  /*****/
+
+  h2 {font-family: 'Merriweather', serif; line-height: 34px; font-weight: 400; font-size: 28px;}
+  p {font-family: 'Poppins', sans-serif; line-height: 150%; font-weight: 200; font-size: 18px;}
+
+  #design-tools {
+    display: flex; flex-direction: row; justify-content: space-around;
+  }
+
+  #design-process {display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #e6ebe0; height: 100vh;}
+
+  #design-list {
+    display: flex; flex-direction: column;
+  }
+
+  #interviewee-notes {display: flex; justify-content: center;}
+
+  #affinity {display: flex; flex-direction: column; justify-content: center; background-color: #e6ebe0; align-items: center; padding: 2rem;}
+
+  #user-persona-comment {
+    background-color: #e6ebe0;
+  margin: auto; width: 50%; padding: 1rem; margin-top: 1rem; border-radius: 25px; text-align: justify;
+  }
+
+  #user-meet
+  {
+    background-color: #ffffff; margin: auto; width: 50%; height: 50%; padding: 1rem; border-radius: 25%; text-align: center; align-content: center; justify-content: center;
+  }
+
+  #rhino-project
+  {display: flex; flex-direction: column; justify-content: center;}
+
+  .comment-box {background-color: #e6ebe0;
+    margin: auto; width: 90%; padding: 1rem; margin-top: 1rem; border-radius: 25px; text-align: justify;
+    } 
+
+    .div-left {margin: 1rem;}
+
+    .content-wrapper-border {display: flex; flex-direction: row; background-color: #e6ebe0; padding: 2rem;}
+
+    .box-border
+    {display: flex; 
+      flex-direction: column; 
+      justify-content: space-evenly;
+      padding: 2rem;
+     border: 2px solid lightslategray;}
+
+
+     #lessons-learned {background-color:#e6ebe0; padding: 4rem; justify-content: center;}
+     #right-next {
+       display: flex; flex-direction: column; margin: 1rem; justify-content: center; align-content: center;
+     }
+     
+#next-proj {
+margin-left: 8rem;} /*Fix this later*/
+
+#style-guide
+{
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center; 
+}
